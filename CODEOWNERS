@@ -1,0 +1,48 @@
+# Global
+* @botpress/engineering
+
+# Packages
+
+## API / Client
+/packages/chat-api @botpress/kraken @botpress/leads
+/packages/chat-client @botpress/kraken @botpress/leads
+/packages/client @botpress/squid @botpress/kraken @botpress/leads
+
+## CLI / SDK
+/packages/cli @botpress/squid @botpress/leads
+/packages/sdk @botpress/squid @botpress/leads
+
+## Common / Utils
+/packages/common @botpress/squid @botpress/leads
+/packages/sdk-addons @botpress/squid @botpress/leads
+
+## AI
+/packages/cognitive @allardy @slvnperron @botpress/squid @botpress/leads
+/packages/llmz @allardy @slvnperron @botpress/squid @botpress/leads
+/packages/vai @allardy @slvnperron @botpress/squid @botpress/leads
+/packages/zai @allardy @slvnperron @botpress/squid @botpress/leads
+
+# Bots
+/bots @botpress/shell @botpress/squid @botpress/kraken @botpress/leads
+
+# Plugins
+/plugins @botpress/shell @botpress/leads
+
+# Integrations
+/integrations @botpress/shell @botpress/leads
+
+## Utils
+/integrations/browser @allardy @botpress/starfish @botpress/leads
+/integrations/charts @allardy @botpress/starfish @botpress/leads
+/integrations/pdf-generator @allardy @botpress/starfish @botpress/leads
+
+## LLM
+/integrations/anthropic @botpress/shark @botpress/leads
+/integrations/cerebras @botpress/shark @botpress/leads
+/integrations/fireworks-ai @botpress/shark @botpress/leads
+/integrations/google-ai @botpress/shark @botpress/leads
+/integrations/groq @botpress/shark @botpress/leads
+/integrations/openai @botpress/shark @botpress/leads
+
+## Chat
+/integrations/chat @botpress/kraken @botpress/leads
